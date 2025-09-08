@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|c:\\users\\guijanunzzi\\desktop\\cp4.net-guilherme_janunzzi\\geomaster.api\\geomaster.api\\controllers\\calculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|solutionrelative:geomaster.api\\controllers\\calculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|c:\\users\\guijanunzzi\\desktop\\cp4.net-guilherme_janunzzi\\geomaster.api\\geomaster.api\\dtos\\formarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|solutionrelative:geomaster.api\\dtos\\formarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|c:\\users\\guijanunzzi\\desktop\\cp4.net-guilherme_janunzzi\\geomaster.api\\geomaster.api\\dtos\\formacontidarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|solutionrelative:geomaster.api\\dtos\\formacontidarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|c:\\users\\guijanunzzi\\desktop\\cp4.net-guilherme_janunzzi\\geomaster.api\\geomaster.api\\interfaces\\icalculos2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|solutionrelative:geomaster.api\\interfaces\\icalculos2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|c:\\users\\guijanunzzi\\desktop\\cp4.net-guilherme_janunzzi\\geomaster.api\\geomaster.api\\interfaces\\icalculos3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|solutionrelative:geomaster.api\\interfaces\\icalculos3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|c:\\users\\guijanunzzi\\desktop\\cp4.net-guilherme_janunzzi\\geomaster.api\\geomaster.api\\models\\retangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|solutionrelative:geomaster.api\\models\\retangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|c:\\users\\guijanunzzi\\desktop\\cp4.net-guilherme_janunzzi\\geomaster.api\\geomaster.api\\models\\esfera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|solutionrelative:geomaster.api\\models\\esfera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|c:\\users\\guijanunzzi\\desktop\\cp4.net-guilherme_janunzzi\\geomaster.api\\geomaster.api\\models\\circulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|solutionrelative:geomaster.api\\models\\circulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|c:\\users\\guijanunzzi\\desktop\\cp4.net-guilherme_janunzzi\\geomaster.api\\geomaster.api\\services\\icalculadoraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|solutionrelative:geomaster.api\\services\\icalculadoraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|c:\\users\\guijanunzzi\\desktop\\cp4.net-guilherme_janunzzi\\geomaster.api\\geomaster.api\\services\\calculadoraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|solutionrelative:geomaster.api\\services\\calculadoraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|c:\\users\\guijanunzzi\\desktop\\cp4.net-guilherme_janunzzi\\geomaster.api\\geomaster.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F113507B-9A56-4C2D-9FE4-03D67E93FC5C}|GeoMaster.API\\GeoMaster.API.csproj|solutionrelative:geomaster.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormaContidaRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\DTOs\\FormaContidaRequestDto.cs",
+              "RelativeDocumentMoniker": "GeoMaster.API\\DTOs\\FormaContidaRequestDto.cs",
+              "ToolTip": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\DTOs\\FormaContidaRequestDto.cs",
+              "RelativeToolTip": "GeoMaster.API\\DTOs\\FormaContidaRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T23:27:48.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\Program.cs",
+              "RelativeDocumentMoniker": "GeoMaster.API\\Program.cs",
+              "ToolTip": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\Program.cs",
+              "RelativeToolTip": "GeoMaster.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T23:19:03.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculosController.cs",
+              "DocumentMoniker": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\Controllers\\CalculosController.cs",
+              "RelativeDocumentMoniker": "GeoMaster.API\\Controllers\\CalculosController.cs",
+              "ToolTip": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\Controllers\\CalculosController.cs",
+              "RelativeToolTip": "GeoMaster.API\\Controllers\\CalculosController.cs",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAcwBoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T23:11:20.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormaRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\DTOs\\FormaRequestDto.cs",
+              "RelativeDocumentMoniker": "GeoMaster.API\\DTOs\\FormaRequestDto.cs",
+              "ToolTip": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\DTOs\\FormaRequestDto.cs",
+              "RelativeToolTip": "GeoMaster.API\\DTOs\\FormaRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T23:10:18.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CalculadoraService.cs",
+              "DocumentMoniker": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\Services\\CalculadoraService.cs",
+              "RelativeDocumentMoniker": "GeoMaster.API\\Services\\CalculadoraService.cs",
+              "ToolTip": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\Services\\CalculadoraService.cs",
+              "RelativeToolTip": "GeoMaster.API\\Services\\CalculadoraService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T23:07:48.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICalculadoraService.cs",
+              "DocumentMoniker": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\Services\\ICalculadoraService.cs",
+              "RelativeDocumentMoniker": "GeoMaster.API\\Services\\ICalculadoraService.cs",
+              "ToolTip": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\Services\\ICalculadoraService.cs",
+              "RelativeToolTip": "GeoMaster.API\\Services\\ICalculadoraService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T23:07:04.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Esfera.cs",
+              "DocumentMoniker": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\Models\\Esfera.cs",
+              "RelativeDocumentMoniker": "GeoMaster.API\\Models\\Esfera.cs",
+              "ToolTip": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\Models\\Esfera.cs",
+              "RelativeToolTip": "GeoMaster.API\\Models\\Esfera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T23:05:12.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Retangulo.cs",
+              "DocumentMoniker": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\Models\\Retangulo.cs",
+              "RelativeDocumentMoniker": "GeoMaster.API\\Models\\Retangulo.cs",
+              "ToolTip": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\Models\\Retangulo.cs",
+              "RelativeToolTip": "GeoMaster.API\\Models\\Retangulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T23:04:11.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Circulo.cs",
+              "DocumentMoniker": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\Models\\Circulo.cs",
+              "RelativeDocumentMoniker": "GeoMaster.API\\Models\\Circulo.cs",
+              "ToolTip": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\Models\\Circulo.cs",
+              "RelativeToolTip": "GeoMaster.API\\Models\\Circulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T23:02:45.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICalculos3D.cs",
+              "DocumentMoniker": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\Interfaces\\ICalculos3D.cs",
+              "RelativeDocumentMoniker": "GeoMaster.API\\Interfaces\\ICalculos3D.cs",
+              "ToolTip": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\Interfaces\\ICalculos3D.cs",
+              "RelativeToolTip": "GeoMaster.API\\Interfaces\\ICalculos3D.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T23:01:59.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICalculos2D.cs",
+              "DocumentMoniker": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\Interfaces\\ICalculos2D.cs",
+              "RelativeDocumentMoniker": "GeoMaster.API\\Interfaces\\ICalculos2D.cs",
+              "ToolTip": "C:\\Users\\GuiJanunzzi\\Desktop\\CP4.NET-Guilherme_Janunzzi\\GeoMaster.API\\GeoMaster.API\\Interfaces\\ICalculos2D.cs",
+              "RelativeToolTip": "GeoMaster.API\\Interfaces\\ICalculos2D.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T23:00:54.322Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

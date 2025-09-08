@@ -1,0 +1,359 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "GeoMaster API",
+    "description": "Uma API para realizar cálculos geométricos complexos.",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/v1/Calculos/area": {
+      "post": {
+        "tags": [
+          "Calculos"
+        ],
+        "summary": "Calcula a área de uma forma geométrica 2D.",
+        "description": "Envie um JSON especificando o 'tipoForma' e suas 'propriedades'.\r\n\r\n<b>Exemplo para um círculo:</b>\r\n```json\r\n{\r\n  \"tipoForma\": \"circulo\",\r\n  \"propriedades\": {\r\n    \"raio\": 10\r\n  }\r\n}\r\n```\r\n<b>Exemplo para um retângulo:</b>\r\n```json\r\n{\r\n  \"tipoForma\": \"retangulo\",\r\n  \"propriedades\": {\r\n    \"largura\": 5,\r\n    \"altura\": 8\r\n  }\r\n}\r\n```",
+        "requestBody": {
+          "description": "Objeto que representa a forma e suas dimensões.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FormaRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FormaRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/FormaRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Retorna o resultado do cálculo.",
+            "content": {
+              "text/plain": {
+                "schema": { }
+              },
+              "application/json": {
+                "schema": { }
+              },
+              "text/json": {
+                "schema": { }
+              }
+            }
+          },
+          "400": {
+            "description": "Se o tipo da forma for inválido, se as propriedades não corresponderem à forma, se as dimensões forem negativas ou se a forma não for 2D.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/Calculos/perimetro": {
+      "post": {
+        "tags": [
+          "Calculos"
+        ],
+        "summary": "Calcula o perímetro de uma forma geométrica 2D.",
+        "description": "Envie um JSON especificando o 'tipoForma' e suas 'propriedades'.\r\n\r\n<b>Exemplo:</b>\r\n```json\r\n{\r\n  \"tipoForma\": \"retangulo\",\r\n  \"propriedades\": {\r\n    \"largura\": 5,\r\n    \"altura\": 10\r\n  }\r\n}\r\n```",
+        "requestBody": {
+          "description": "Objeto que representa a forma e suas dimensões.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FormaRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FormaRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/FormaRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Retorna o resultado do cálculo.",
+            "content": {
+              "text/plain": {
+                "schema": { }
+              },
+              "application/json": {
+                "schema": { }
+              },
+              "text/json": {
+                "schema": { }
+              }
+            }
+          },
+          "400": {
+            "description": "Se o tipo da forma for inválido, as propriedades incorretas ou a forma não for 2D.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/Calculos/volume": {
+      "post": {
+        "tags": [
+          "Calculos"
+        ],
+        "summary": "Calcula o volume de uma forma geométrica 3D.",
+        "description": "Envie um JSON especificando o 'tipoForma' e suas 'propriedades'.\r\n\r\n<b>Exemplo para uma esfera:</b>\r\n```json\r\n{\r\n  \"tipoForma\": \"esfera\",\r\n  \"propriedades\": {\r\n    \"raio\": 7\r\n  }\r\n}\r\n```",
+        "requestBody": {
+          "description": "Objeto que representa a forma e suas dimensões.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FormaRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FormaRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/FormaRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Retorna o resultado do cálculo.",
+            "content": {
+              "text/plain": {
+                "schema": { }
+              },
+              "application/json": {
+                "schema": { }
+              },
+              "text/json": {
+                "schema": { }
+              }
+            }
+          },
+          "400": {
+            "description": "Se o tipo da forma for inválido, as propriedades incorretas ou a forma não for 3D.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/validacoes/forma-contida": {
+      "post": {
+        "tags": [
+          "Calculos"
+        ],
+        "summary": "(Desafio) Verifica se uma forma geométrica pode ser contida dentro de outra.",
+        "description": "Este endpoint recebe duas formas e retorna `true` se a 'formaInterna' puder ser geometricamente contida dentro da 'formaExterna'.\r\n\r\n<b>Combinações suportadas:</b><ul><li>Círculo dentro de um Retângulo</li><li>Retângulo dentro de um Círculo</li></ul>\r\n<b>Exemplo de requisição:</b>\r\n```json\r\n{\r\n  \"formaExterna\": {\r\n    \"tipoForma\": \"retangulo\",\r\n    \"propriedades\": { \"largura\": 10, \"altura\": 10 }\r\n  },\r\n  \"formaInterna\": {\r\n    \"tipoForma\": \"circulo\",\r\n    \"propriedades\": { \"raio\": 5 }\r\n  }\r\n}\r\n```",
+        "requestBody": {
+          "description": "Objeto contendo a forma externa e a forma interna.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FormaContidaRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FormaContidaRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/FormaContidaRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Retorna o resultado da verificação (`true` ou `false`).",
+            "content": {
+              "text/plain": {
+                "schema": { }
+              },
+              "application/json": {
+                "schema": { }
+              },
+              "text/json": {
+                "schema": { }
+              }
+            }
+          },
+          "400": {
+            "description": "Se a combinação de formas não for suportada ou se houver um erro nos dados de entrada.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "FormaContidaRequestDto": {
+        "type": "object",
+        "properties": {
+          "formaExterna": {
+            "$ref": "#/components/schemas/FormaRequestDto"
+          },
+          "formaInterna": {
+            "$ref": "#/components/schemas/FormaRequestDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "FormaRequestDto": {
+        "type": "object",
+        "properties": {
+          "tipoForma": {
+            "type": "string",
+            "nullable": true
+          },
+          "propriedades": { }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

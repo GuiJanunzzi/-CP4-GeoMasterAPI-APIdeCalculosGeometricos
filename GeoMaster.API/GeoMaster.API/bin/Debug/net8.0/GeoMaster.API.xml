@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GeoMaster.API</name>
+    </assembly>
+    <members>
+        <member name="M:GeoMaster.API.Controllers.CalculosController.CalcularArea(GeoMaster.API.DTOs.FormaRequestDto)">
+            <summary>
+            Calcula a área de uma forma geométrica 2D.
+            </summary>
+            <remarks>
+            Envie um JSON especificando o 'tipoForma' e suas 'propriedades'.
+            <br/>
+            <b>Exemplo para um círculo:</b>
+            ```json
+            {
+              "tipoForma": "circulo",
+              "propriedades": {
+                "raio": 10
+              }
+            }
+            ```
+            <b>Exemplo para um retângulo:</b>
+            ```json
+            {
+              "tipoForma": "retangulo",
+              "propriedades": {
+                "largura": 5,
+                "altura": 8
+              }
+            }
+            ```
+            </remarks>
+            <param name="formaDto">Objeto que representa a forma e suas dimensões.</param>
+            <returns>Um objeto JSON com o resultado da área calculada.</returns>
+            <response code="200">Retorna o resultado do cálculo.</response>
+            <response code="400">Se o tipo da forma for inválido, se as propriedades não corresponderem à forma, se as dimensões forem negativas ou se a forma não for 2D.</response>
+        </member>
+        <member name="M:GeoMaster.API.Controllers.CalculosController.CalcularPerimetro(GeoMaster.API.DTOs.FormaRequestDto)">
+            <summary>
+            Calcula o perímetro de uma forma geométrica 2D.
+            </summary>
+            <remarks>
+            Envie um JSON especificando o 'tipoForma' e suas 'propriedades'.
+            <br/>
+            <b>Exemplo:</b>
+            ```json
+            {
+              "tipoForma": "retangulo",
+              "propriedades": {
+                "largura": 5,
+                "altura": 10
+              }
+            }
+            ```
+            </remarks>
+            <param name="formaDto">Objeto que representa a forma e suas dimensões.</param>
+            <returns>Um objeto JSON com o resultado do perímetro calculado.</returns>
+            <response code="200">Retorna o resultado do cálculo.</response>
+            <response code="400">Se o tipo da forma for inválido, as propriedades incorretas ou a forma não for 2D.</response>
+        </member>
+        <member name="M:GeoMaster.API.Controllers.CalculosController.CalcularVolume(GeoMaster.API.DTOs.FormaRequestDto)">
+            <summary>
+            Calcula o volume de uma forma geométrica 3D.
+            </summary>
+            <remarks>
+            Envie um JSON especificando o 'tipoForma' e suas 'propriedades'.
+            <br/>
+            <b>Exemplo para uma esfera:</b>
+            ```json
+            {
+              "tipoForma": "esfera",
+              "propriedades": {
+                "raio": 7
+              }
+            }
+            ```
+            </remarks>
+            <param name="formaDto">Objeto que representa a forma e suas dimensões.</param>
+            <returns>Um objeto JSON com o resultado do volume calculado.</returns>
+            <response code="200">Retorna o resultado do cálculo.</response>
+            <response code="400">Se o tipo da forma for inválido, as propriedades incorretas ou a forma não for 3D.</response>
+        </member>
+        <member name="M:GeoMaster.API.Controllers.CalculosController.VerificarFormaContida(GeoMaster.API.DTOs.FormaContidaRequestDto)">
+            <summary>
+            (Desafio) Verifica se uma forma geométrica pode ser contida dentro de outra.
+            </summary>
+            <remarks>
+            Este endpoint recebe duas formas e retorna `true` se a 'formaInterna' puder ser geometricamente contida dentro da 'formaExterna'.
+            <br/>
+            <b>Combinações suportadas:</b>
+            <ul>
+              <li>Círculo dentro de um Retângulo</li>
+              <li>Retângulo dentro de um Círculo</li>
+            </ul>
+            <br/>
+            <b>Exemplo de requisição:</b>
+            ```json
+            {
+              "formaExterna": {
+                "tipoForma": "retangulo",
+                "propriedades": { "largura": 10, "altura": 10 }
+              },
+              "formaInterna": {
+                "tipoForma": "circulo",
+                "propriedades": { "raio": 5 }
+              }
+            }
+            ```
+            </remarks>
+            <param name="request">Objeto contendo a forma externa e a forma interna.</param>
+            <returns>Um booleano indicando se a forma interna está contida na externa.</returns>
+            <response code="200">Retorna o resultado da verificação (`true` ou `false`).</response>
+            <response code="400">Se a combinação de formas não for suportada ou se houver um erro nos dados de entrada.</response>
+        </member>
+    </members>
+</doc>
